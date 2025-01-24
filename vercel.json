@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "inviteqr marketing",
+    "builds": [
+      { "src": "server.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/server.js" }
+    ]
+  }
+  
